@@ -3,6 +3,10 @@
 # Instaçaão
 ## Passo 1: Dentro da pasta challenge-stefanini, rodar `utils.sh` com o seguinte comando `source ./utils.sh`, script inicializa a virtual-env. 
 
+## Passo 2: Rodar o container do postgres, `sudo docker-compose up -d`
+
+## Passo 3: Iniciar a aplicação com `python3 manage.py runserver`
+
 
 # API Documentation for challenge.
 
