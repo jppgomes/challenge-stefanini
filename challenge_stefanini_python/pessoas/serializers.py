@@ -9,3 +9,7 @@ class PessoaSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Pessoa
         fields = ('id', 'nome', 'sobrenome', 'cpf', 'email')
+
+    
+        def __unicode__(self):
+            return '%s' % self.nome

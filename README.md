@@ -11,6 +11,7 @@
 
 ## Passo 5: Iniciar a aplicação com `python3 manage.py runserver`
 
+## Passo 6: Rodar os testes unitários `pytest` (Na mesma pasta do arquivo manage.py)
 
 # API Documentation for challenge.
 
