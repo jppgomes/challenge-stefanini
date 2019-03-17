@@ -16,6 +16,7 @@
 
 ## `GET /pessoas/`
 
+Retorna todas as pessoas, no precisa de autenticação
 
 ## `POST /pessoas/`
 
@@ -31,7 +32,6 @@ Cria uma nova pessoa
 
 *  **`Email`** Email da pessoa.
 
-Retorna todas as pessoas, no precisa de autenticação
 
 ## `GET /enderecos/`
 
