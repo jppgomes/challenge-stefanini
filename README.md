@@ -23,6 +23,25 @@ Retorna todas as pessoas, no precisa de autenticação
 
 Cria uma nova pessoa
 
+## `DELETE /pessoas/{id}`
+
+Cria uma nova pessoa
+
+##### PARAMS:
+
+*  **`Nome`** nome da pessoa
+
+*  **`Sobrenome`** Sobrenome da pessoa.
+
+*  **`Cpf`** CPf da pessoa, deve conter 11 caracteres.
+
+*  **`Email`** Email da pessoa.
+
+
+## `PUT /pessoas/{id}`
+
+Atualiza uma nova pessoa
+
 ##### PARAMS:
 
 *  **`Nome`** nome da pessoa
