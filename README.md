@@ -23,10 +23,6 @@ Retorna todas as pessoas, no precisa de autenticação
 
 Cria uma nova pessoa
 
-## `DELETE /pessoas/{id}`
-
-Cria uma nova pessoa
-
 ##### PARAMS:
 
 *  **`Nome`** nome da pessoa
@@ -37,6 +33,9 @@ Cria uma nova pessoa
 
 *  **`Email`** Email da pessoa.
 
+## `DELETE /pessoas/{id}`
+
+Deleta uma  pessoa
 
 ## `PUT /pessoas/{id}`
 
@@ -57,9 +56,30 @@ Atualiza uma nova pessoa
 
 Retorna todos os endereços, não precisa de autenticação
 
+## `DELETE /enderecos/{id}`
+
+Deleta um endereço especificando o id.
+
 ## `POST /enderecos/`
 
 Cria uma nova pessoa
+
+##### PARAMS:
+
+*  **`Logradouro`** 
+
+*  **`Bairro`** 
+
+*  **`Cidade`** 
+
+*  **`Estado`** 
+
+* **`Pessoa`** - Objeto pessoa
+
+
+## `PUT /enderecos/{id}`
+
+Atualiza uma nova pessoa
 
 ##### PARAMS:
 
